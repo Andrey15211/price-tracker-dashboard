@@ -1,0 +1,137 @@
+{
+  "Metadata": {
+    "title": "Price Pulse — price monitoring",
+    "description": "A demonstration price monitoring dashboard powered by mock adapters."
+  },
+  "Shell": {
+    "console": "Monitoring Console",
+    "section": "Monitoring",
+    "overview": "Overview",
+    "products": "Products",
+    "alerts": "Alerts",
+    "activity": "Activity",
+    "settings": "Settings",
+    "mockAdapters": "Mock adapters",
+    "online": "Online",
+    "mainNavigation": "Main navigation",
+    "closeNavigation": "Close navigation",
+    "openNavigation": "Open navigation",
+    "priceHistory": "Price history",
+    "priceMonitoring": "Price monitoring",
+    "simulationFreshness": "Data freshness: simulation mode",
+    "systemOperational": "System operational",
+    "addProduct": "Add product",
+    "language": "Language"
+  },
+  "Dashboard": {
+    "operationalSummary": "Operational summary",
+    "title": "Price and alert control",
+    "refresh": "Refresh data",
+    "trackedProducts": "Tracked products",
+    "rangesDescription": "Current values and price ranges",
+    "positions": "{count, plural, one {# item} other {# items}}",
+    "dataSourceLabel": "Source:",
+    "dataSourceText": "deterministic mock data and simulated adapter checks.",
+    "safetyText": "Real scraping and anti-bot bypasses are not used.",
+    "loading": "Loading monitoring data…",
+    "unavailable": "Data unavailable",
+    "loadError": "Unable to load data",
+    "retry": "Retry"
+  },
+  "Kpi": {
+    "trackedProducts": "Tracked products",
+    "sources": "{count} data sources",
+    "activeAlerts": "Active alerts",
+    "targetReached": "Target reached",
+    "noTriggers": "No triggers",
+    "averageChange": "Average change",
+    "previousCheck": "Since previous check",
+    "bestPrice": "Best current deal",
+    "noData": "No data",
+    "ariaLabel": "Key performance indicators"
+  },
+  "ProductsTable": {
+    "product": "Product",
+    "source": "Source",
+    "current": "Current",
+    "target": "Target",
+    "minMax": "Min. / Max.",
+    "status": "Status",
+    "checked": "Checked",
+    "targetReached": "Target price reached",
+    "emptyTitle": "No tracked products",
+    "emptyText": "Add the first product to start monitoring.",
+    "dropped": "Dropped",
+    "increased": "Increased",
+    "stable": "Stable"
+  },
+  "Products": {
+    "sony-wh-1000xm5": "Sony WH-1000XM5 Headphones",
+    "xiaomi-robot-s10": "Xiaomi Robot S10 Vacuum",
+    "samsung-odyssey-g5": "Samsung Odyssey G5 27″ Monitor",
+    "yandex-station-midi": "Yandex Station Midi Smart Speaker",
+    "logitech-mx-master-3s": "Logitech MX Master 3S Mouse",
+    "de-longhi-dinamica": "De'Longhi Dinamica Coffee Machine",
+    "apple-ipad-air-m2": "Apple iPad Air M2 11″ Tablet",
+    "bosch-serie-4": "Bosch Serie 4 Dishwasher"
+  },
+  "Alerts": {
+    "title": "Latest alerts",
+    "active": "{count} active",
+    "priceBelow": "Price {current} is below target {target}",
+    "empty": "No active alerts"
+  },
+  "Form": {
+    "title": "Add product",
+    "subtitle": "Connect to a demonstration adapter",
+    "close": "Close form",
+    "name": "Product name",
+    "namePlaceholder": "For example, Pixel 9 Smartphone",
+    "url": "Product URL",
+    "urlPlaceholder": "https://example.com/product",
+    "source": "Source",
+    "targetPrice": "Target price, RUB",
+    "cancel": "Cancel",
+    "submit": "Add product",
+    "createError": "Unable to add product",
+    "validation": {
+      "nameMin": "Enter at least 3 characters",
+      "nameMax": "Name must not exceed 120 characters",
+      "url": "Enter a valid URL",
+      "targetPositive": "Price must be greater than zero",
+      "targetMax": "Price exceeds the allowed limit"
+    }
+  },
+  "Detail": {
+    "notFound": "Product not found",
+    "loadError": "Unable to load product",
+    "checkError": "Unable to check the price",
+    "targetReached": "Target reached",
+    "openSource": "Open source",
+    "checkPrice": "Check price",
+    "currentPrice": "Current price",
+    "targetPrice": "Target price",
+    "minimum": "Minimum",
+    "maximum": "Maximum",
+    "newPrice": "New price: {price}. Change: {change}.",
+    "chartTitle": "Price movement",
+    "chartDescription": "The target price is shown as a dashed line",
+    "all": "ALL",
+    "historyTitle": "Check history",
+    "historyDescription": "Latest 10 measurements in the selected period"
+  },
+  "HistoryTable": {
+    "checkedAt": "Checked at",
+    "price": "Price",
+    "change": "Change",
+    "movement": "Movement"
+  },
+  "Chart": {
+    "price": "Price",
+    "target": "Target"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "back": "Return to overview"
+  }
+}

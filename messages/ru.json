@@ -1,0 +1,137 @@
+{
+  "Metadata": {
+    "title": "Price Pulse — мониторинг цен",
+    "description": "Демонстрационная панель мониторинга цен с mock-адаптерами."
+  },
+  "Shell": {
+    "console": "Консоль мониторинга",
+    "section": "Мониторинг",
+    "overview": "Обзор",
+    "products": "Товары",
+    "alerts": "Уведомления",
+    "activity": "Активность",
+    "settings": "Настройки",
+    "mockAdapters": "Mock-адаптеры",
+    "online": "В сети",
+    "mainNavigation": "Основная навигация",
+    "closeNavigation": "Закрыть навигацию",
+    "openNavigation": "Открыть навигацию",
+    "priceHistory": "История цены",
+    "priceMonitoring": "Мониторинг цен",
+    "simulationFreshness": "Актуальность данных: режим симуляции",
+    "systemOperational": "Система работает",
+    "addProduct": "Добавить товар",
+    "language": "Язык"
+  },
+  "Dashboard": {
+    "operationalSummary": "Оперативная сводка",
+    "title": "Контроль цен и сигналов",
+    "refresh": "Обновить данные",
+    "trackedProducts": "Отслеживаемые товары",
+    "rangesDescription": "Текущие значения и ценовые диапазоны",
+    "positions": "{count, plural, one {# позиция} few {# позиции} many {# позиций} other {# позиции}}",
+    "dataSourceLabel": "Источник:",
+    "dataSourceText": "детерминированные mock-данные и симулированные проверки через адаптеры.",
+    "safetyText": "Реальный скрапинг и обход антибот-защиты не используются.",
+    "loading": "Загрузка мониторинга…",
+    "unavailable": "Данные недоступны",
+    "loadError": "Не удалось загрузить данные",
+    "retry": "Повторить"
+  },
+  "Kpi": {
+    "trackedProducts": "Отслеживаемые товары",
+    "sources": "{count} источника данных",
+    "activeAlerts": "Активные уведомления",
+    "targetReached": "Цель достигнута",
+    "noTriggers": "Нет срабатываний",
+    "averageChange": "Среднее изменение",
+    "previousCheck": "К предыдущей проверке",
+    "bestPrice": "Лучшая цена",
+    "noData": "Нет данных",
+    "ariaLabel": "Ключевые показатели"
+  },
+  "ProductsTable": {
+    "product": "Товар",
+    "source": "Источник",
+    "current": "Текущая",
+    "target": "Целевая",
+    "minMax": "Мин. / Макс.",
+    "status": "Статус",
+    "checked": "Проверено",
+    "targetReached": "Целевая цена достигнута",
+    "emptyTitle": "Нет отслеживаемых товаров",
+    "emptyText": "Добавьте первый товар, чтобы начать мониторинг.",
+    "dropped": "Снижение",
+    "increased": "Рост",
+    "stable": "Стабильно"
+  },
+  "Products": {
+    "sony-wh-1000xm5": "Наушники Sony WH-1000XM5",
+    "xiaomi-robot-s10": "Робот-пылесос Xiaomi Robot S10",
+    "samsung-odyssey-g5": "Монитор Samsung Odyssey G5 27″",
+    "yandex-station-midi": "Умная колонка Яндекс Станция Миди",
+    "logitech-mx-master-3s": "Мышь Logitech MX Master 3S",
+    "de-longhi-dinamica": "Кофемашина De'Longhi Dinamica",
+    "apple-ipad-air-m2": "Планшет Apple iPad Air M2 11″",
+    "bosch-serie-4": "Посудомоечная машина Bosch Serie 4"
+  },
+  "Alerts": {
+    "title": "Последние сигналы",
+    "active": "{count} активных",
+    "priceBelow": "Цена {current} ниже цели {target}",
+    "empty": "Активных сигналов нет"
+  },
+  "Form": {
+    "title": "Добавить товар",
+    "subtitle": "Подключение к демонстрационному адаптеру",
+    "close": "Закрыть форму",
+    "name": "Название товара",
+    "namePlaceholder": "Например, Смартфон Pixel 9",
+    "url": "URL товара",
+    "urlPlaceholder": "https://example.com/product",
+    "source": "Источник",
+    "targetPrice": "Целевая цена, ₽",
+    "cancel": "Отмена",
+    "submit": "Добавить товар",
+    "createError": "Не удалось добавить товар",
+    "validation": {
+      "nameMin": "Введите не менее 3 символов",
+      "nameMax": "Название не должно превышать 120 символов",
+      "url": "Введите корректный URL",
+      "targetPositive": "Цена должна быть больше нуля",
+      "targetMax": "Цена превышает допустимый предел"
+    }
+  },
+  "Detail": {
+    "notFound": "Товар не найден",
+    "loadError": "Не удалось загрузить товар",
+    "checkError": "Не удалось выполнить проверку",
+    "targetReached": "Цель достигнута",
+    "openSource": "Открыть источник",
+    "checkPrice": "Проверить цену",
+    "currentPrice": "Текущая цена",
+    "targetPrice": "Целевая цена",
+    "minimum": "Минимум",
+    "maximum": "Максимум",
+    "newPrice": "Новая цена: {price}. Изменение: {change}.",
+    "chartTitle": "Динамика цены",
+    "chartDescription": "Целевая цена отмечена пунктирной линией",
+    "all": "ВСЕ",
+    "historyTitle": "Журнал проверок",
+    "historyDescription": "Последние 10 измерений выбранного периода"
+  },
+  "HistoryTable": {
+    "checkedAt": "Дата проверки",
+    "price": "Цена",
+    "change": "Изменение",
+    "movement": "Движение"
+  },
+  "Chart": {
+    "price": "Цена",
+    "target": "Цель"
+  },
+  "NotFound": {
+    "title": "Страница не найдена",
+    "back": "Вернуться к обзору"
+  }
+}
