@@ -64,9 +64,9 @@ export function KpiCards({ products }: { products: Product[] }) {
   return (
     <section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4" aria-label={t("ariaLabel")}>
       {cards.map(({ label, value, detail, icon: Icon, tone }) => (
-        <article key={label} className="panel rounded-lg p-4">
+        <article key={label} className="panel min-h-[148px] rounded-lg p-4">
           <div className="mb-5 flex items-start justify-between">
-            <p className="text-[11px] font-medium uppercase tracking-[0.11em] text-[#738399]">
+            <p className="min-h-8 text-[11px] font-medium uppercase tracking-[0.11em] text-[#738399]">
               {label}
             </p>
             <span className={`grid size-8 place-items-center rounded-md border ${tones[tone]}`}>

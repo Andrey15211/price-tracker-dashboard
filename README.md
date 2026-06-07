@@ -1,5 +1,10 @@
 # Price Pulse
 
+## Links
+
+- GitHub: https://github.com/Andrey15211/price-tracker-dashboard
+- Live Demo: https://price-tracker-dashboard-one.vercel.app
+
 Price Pulse is a dark fintech-style price tracking dashboard. It demonstrates server logic, API Route Handlers, historical price data, alerts, charts, validated forms, localization, and adapter-based data providers without scraping real marketplaces.
 
 ![Dashboard concept](docs/design/dashboard-concept.png)

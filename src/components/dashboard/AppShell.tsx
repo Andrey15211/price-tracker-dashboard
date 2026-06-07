@@ -78,7 +78,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className={`focus-ring flex items-center gap-3 rounded-md px-3 py-2.5 text-[13px] transition ${
+                className={`focus-ring flex min-h-10 items-center gap-3 rounded-md px-3 py-2.5 text-[13px] transition ${
                   active
                     ? "bg-cyan-400/9 text-cyan-200"
                     : "text-[#8796aa] hover:bg-white/[0.035] hover:text-[#dbe5f0]"
@@ -153,14 +153,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               {t("systemOperational")}
             </div>
             <div
-              className="flex rounded-md border border-[#203040] bg-[#0c141e] p-0.5"
+              className="flex min-w-[70px] rounded-md border border-[#203040] bg-[#0c141e] p-0.5"
               aria-label={t("language")}
             >
               {(["ru", "en"] as const).map((value) => (
                 <button
                   key={value}
                   onClick={() => switchLocale(value)}
-                  className={`focus-ring rounded px-2 py-1.5 text-[10px] font-semibold uppercase ${
+                  className={`focus-ring min-w-8 rounded px-2 py-1.5 text-[10px] font-semibold uppercase ${
                     locale === value
                       ? "bg-[#1a2a3a] text-cyan-300"
                       : "text-[#68798e] hover:text-white"
@@ -175,7 +175,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               <button
                 onClick={() => window.dispatchEvent(new Event("open-add-product"))}
                 aria-label={t("addProduct")}
-                className="focus-ring flex items-center gap-2 rounded-md bg-cyan-400 px-3.5 py-2 text-xs font-semibold text-[#041016] transition hover:bg-cyan-300"
+                className="focus-ring flex min-h-9 min-w-9 items-center justify-center gap-2 rounded-md bg-cyan-400 px-3.5 py-2 text-xs font-semibold text-[#041016] transition hover:bg-cyan-300 sm:min-w-[142px]"
               >
                 <Plus size={16} strokeWidth={2.5} />
                 <span className="hidden sm:inline">{t("addProduct")}</span>
