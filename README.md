@@ -83,3 +83,11 @@ Deployed on Vercel with the Next.js preset. Mock mutations are in-memory and eph
 ## Recommended GitHub Topics
 
 `price-tracker` `dashboard` `data-visualization` `nextjs` `typescript` `recharts` `tanstack-query` `next-intl` `api-routes` `vercel`
+
+---
+
+## Contact
+
+**Telegram:** [@andrey15211](https://t.me/andrey15211)  
+**Email:** andrejbadalin8@gmail.com  
+**GitHub:** [Andrey15211](https://github.com/Andrey15211)
